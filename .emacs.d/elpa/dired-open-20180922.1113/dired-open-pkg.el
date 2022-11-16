@@ -1,0 +1,2 @@
+;;; Generated package description from dired-open.el  -*- no-byte-compile: t -*-
+(define-package "dired-open" "20180922.1113" "Open files from dired using using custom actions" '((dash "2.5.0") (dired-hacks-utils "0.0.1")) :commit "a45737d3a5aaac6928ebd7af041e5603dffaca64" :authors '(("Matúš Goljer" . "matus.goljer@gmail.com")) :maintainer '("Matúš Goljer" . "matus.goljer@gmail.com") :keywords '("files"))

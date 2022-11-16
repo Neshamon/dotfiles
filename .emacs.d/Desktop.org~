@@ -1,0 +1,12 @@
+#+title: My Emacs Desktop Environment
+#+PROPERTY: header-args:emacs-lisp :tangle ./desktop.el
+
+* Window Management
+
+** EXWM Config
+
+#+begin_src emacs-lisp
+
+  
+  
+#+end_src

@@ -1,0 +1,13 @@
+guix install cmake libtool
+guix install gcc-toolchain
+guix install make perl
+guix package -i emacs-vterm
+guix remove emacs-vterm
+ls
+guix install firacode
+guix install firacode-fonts
+guix install firacode-font
+guix install arandr
+arandr
+exit
+ls

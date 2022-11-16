@@ -1,0 +1,88 @@
+exit
+guix install picom
+picom &
+guix install feh
+cd ..
+ls
+ls -a
+cd .config/
+ls
+ls -a
+cd ..
+ls
+ls -a
+cd .local/
+ls
+cd share/
+ls
+cd backgrounds/
+ls
+ls -a
+cd ~/
+ls
+cd Downloads/
+ls
+mv Abstract-Nord.png ~/.local/share/backgrounds/
+feh --bg-scale ~/.local/share/backgrounds/Abstract-Nord.png
+arandr
+guix -I
+guix package -I
+guix install xrandr
+cd
+ls
+guix install blueman pasystray
+guix install pavucontrol
+guix install slock xss-lock
+cd Downloads/
+ls
+rm -h
+rm -r
+ls
+cd ..
+rm -r Downloads/
+ls
+mkdir Downloads
+ls
+cd Downloads/
+ls
+cd ..
+polybar
+guix install polybar
+sed
+guix install dunst
+ls
+lsa -al
+ls -al
+cd .config/
+ls
+cd ..
+mkdir .dotfiles
+ls
+ls -al
+guix home import ~/dotfiles/guix
+guix home import ~/.dotfiles/guix
+ls -la
+cd .
+cd .dotfiles/
+ls
+cd guix/
+ls
+cd ..
+guix home -h
+ls -a
+cd .emacs.d/
+ls
+cd ..
+cp .emacs.d/ .dotfiles/
+cd ~/.emacs.d/ ~/.dotfiles/
+ls
+ls -a
+cd .emacs.d/
+ls
+cd ..
+ls
+cp ~/.emacs.d/ ~/.dotfiles/
+cd .dotfiles/
+ls
+cd ..
+cp -r ~/.emacs.d/ ~/.dotfiles/
